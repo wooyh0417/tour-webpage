@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>여행팁 사이트</title>
+  <link rel="stylesheet" href="./proj1style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="side">
+      <div class="first">
+        <img src="./air-plane.jpg" width="200" height="200" >
+      </div>
+      <p><a href="./proj1.html">여행팁 사이트</a></p>
+      <div class="second">
+        <ol>
+          <li><a href="./america.html">미국</a></li>
+          <li><a href="./japan.html">일본</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="main">
+      <p>(정보 적는 칸)</p>
+      <div id="box" onclick="changeColor()">추천</div>
+
+      <script>
+        function changeColor() {
+          const box = document.getElementById('box');
+          box.classList.toggle('bg-grey');
+          box.classList.toggle('bg-magenta');
+        }
+        const box = document.getElementById('box');
+        box.classList.add('box');
+        box.classList.add('bg-grey');
+
+      </script>
+    </div>
+</body>
+</html>
