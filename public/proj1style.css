@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  height: 200%;
+  background-color: aqua;
+  display: flex
+}
+
+.side {
+  background-color: yellowgreen;
+  width: 20%;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.side .first {
+  
+}
+.side .second {
+
+}
+.side .second * {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+  width: 90%;
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  margin-left: 725px;
+  border: 5px solid black;
+}
+.bg-grey {
+  background-color: grey;
+}
+.bg-magenta {
+  background-color: magenta;
+}
+li {
+  font-size: 15pt;
+}
+p {
+  
+}
